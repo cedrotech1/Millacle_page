@@ -1,0 +1,50 @@
+.payment-form {
+  max-width: 600px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+.session-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.payment-methods img {
+  width: 50px;
+  height: auto;
+}
+
+.user-information input {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.user-information button {
+  width: 100%;
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-information button:hover {
+  background-color: #fff;
+  color: #555;
+}
