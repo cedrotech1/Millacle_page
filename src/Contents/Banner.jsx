@@ -51,9 +51,9 @@ const Banner = () => {
                                 <a target="_blank" href='https://millacle.vercel.app/Login'>
                                     <button className="btn shadow-md btn-success">Connect With Us</button>
                                 </a> &nbsp; &nbsp;
-                                <a href='./signup'>
+                                <Link to='/signup'>
                                     <button className="btn shadow-md btn-success">Register to this website</button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
