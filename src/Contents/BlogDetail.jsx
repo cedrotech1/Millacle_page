@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import LoadingSpinner from '../Components/loading'; // Assuming you have a LoadingSpinner component
+import LoadingSpinner from '../Components/loading'; 
+import defaultImage from '../assets/images/blogs/blog_default.png';
 
 function Home() {
   const { id } = useParams();
   const navigate = useNavigate();
   const [post, setPost] = useState([]);
-  const [loading, setLoading] = useState(true); // State to track loading status
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     if (isNaN(id)) {
@@ -61,7 +62,7 @@ function Home() {
                         />
                       ) : (
                         <img
-                          src="../assets/images/blogs/blog_default.png"
+                          src={defaultImage}
                           alt="Post Image"
                           className="phone-1"
                           style={{ width: '100%', paddingTop: '0cm', borderRadius: '1%' }}
@@ -110,7 +111,7 @@ function Home() {
                                     />
                                   ) : (
                                     <img
-                                      src="../assets/img/nopic.png"
+                                      src="../assets/images/blogs/blog_default.png"
                                       alt="Post Image"
                                       className="phone-1"
                                       style={{ width: '1.8cm', paddingTop: '0cm', borderRadius: '1%' }}

@@ -107,7 +107,7 @@ function OneChair() {
                             />
                           ) : (
                             <img
-                              src='../assets/img/nopic.png'
+                              src={defaultImage}
                               alt="Post Image"
                               className="phone-1"
                               style={{ width: '1.8cm', paddingTop: '0cm', borderRadius: '1%' }}

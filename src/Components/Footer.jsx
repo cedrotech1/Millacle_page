@@ -37,11 +37,7 @@ const Footer = () => {
                                     <li><Link to='/contact'>Contact Us</Link></li>
                                     
                                 
-                                    <li className="float-start">
-                                        <a  rel="noopener noreferrer" href='./signup'>
-                                            <i className="bi bi-box-arrow-in-right"></i> Register to account
-                                        </a>
-                                    </li>
+            
                                 </ul>
                             </div>
 
